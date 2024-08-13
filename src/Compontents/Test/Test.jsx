@@ -4,6 +4,8 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
+
+
 const testimonials = [
   { name: "Vijayakumari", text: "Wegiht Loss-80kg To 65Kg", image: "/file.png" },
   { name: "Kavitha", text: "Incredible experience.", image: "/public/kavitha.png" },
