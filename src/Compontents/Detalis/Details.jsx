@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../../../public/mr1.png'
 
 const translations = {
   en: {
@@ -166,7 +167,7 @@ const WellnessCoachOverview = () => {
         <h2 className={`text-2xl font-bold mb-4`}>About Us</h2>
         <div className={`flex items-center space-x-4`}>
           <img 
-            src="../../../public/mr1.png" 
+            src={logo} 
             alt="User" 
             className="w-24 h-24 rounded-full object-cover"
           />
