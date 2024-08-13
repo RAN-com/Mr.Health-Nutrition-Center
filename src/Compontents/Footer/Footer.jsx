@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaYoutube,FaPhone, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import logo from '../../assets/mr1.png'
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Column 1: Image */}
           <div className="flex justify-center md:justify-start items-center">
             <img
-              src="../../assets/mr1.png"
+              src={logo}
               alt="Company Logo"
               className="w-32 h-auto"
             />
