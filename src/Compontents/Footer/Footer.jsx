@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Column 1: Image */}
           <div className="flex justify-center md:justify-start items-center">
             <img
-              src="../../../public/mr1.png"
+              src="../../assets/mr1.png"
               alt="Company Logo"
               className="w-32 h-auto"
             />
