@@ -1,0 +1,87 @@
+.content {
+    display: none;
+}
+
+.show-content {
+    display: block;
+}
+
+.containe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: #157667;
+}
+
+.hand {
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagonarea {
+    display: flex;
+    flex-wrap: wrap; /* This will help in wrapping the items in smaller screens */
+}
+
+.hexagonarea .hexagon1,
+.hexagonarea .hexagon2,
+.hexagonarea .hexagon3 {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: #05cdaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Position adjustments for larger screens */
+.hexagonarea .hexagon1 {
+    bottom: -120px;
+    left: 250px;
+}
+
+.hexagonarea .hexagon2 {
+    top: 60px;
+    left: 150px;
+}
+
+.hexagonarea .hexagon3 {
+    left: 50px;
+}
+
+.about-left {
+    background-color: #05cdaf;
+}
+
+/* Media Queries for small screens */
+@media (max-width: 768px) {
+    .hexagonarea .hexagon1,
+    .hexagonarea .hexagon2,
+    .hexagonarea .hexagon3 {
+        width: 150px;
+        height: 200px;
+        left: 0 !important; /* Override left positioning */
+        top: 0 !important; /* Override top positioning */
+        bottom: 0 !important; /* Override bottom positioning */
+        margin: 10px; /* Add some margin for spacing */
+    }
+    
+    .containe {
+        padding: 20px; /* Reduce padding */
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .md\:w-1\/2 {
+        width: 100%; /* Make full width on small screens */
+    }
+
+    .md\:w-2\/3 {
+        width: 100%; /* Make full width on small screens */
+    }
+}

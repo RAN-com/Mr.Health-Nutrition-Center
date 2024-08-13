@@ -1,0 +1,9 @@
+.tab-button {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tab-button:hover {
+    background-color: #4299e1;
+    color: white;
+  }
+  

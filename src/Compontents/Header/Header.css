@@ -1,0 +1,26 @@
+.header {
+    background: rgba(0, 0, 0, 0.5); /* Transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+  }
+  
+  .sticky__header {
+    background: rgba(0, 0, 0, 0.7); /* Slightly darker background when sticky */
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Transparent background for menu */
+    backdrop-filter: blur(10px); /* Blur effect */
+    z-index: -1; /* Ensure it appears below other elements */
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .show__menu {
+    opacity: 1; /* Show the menu */
+    z-index: 50; /* Ensure it appears above other elements */
+  }
+  
