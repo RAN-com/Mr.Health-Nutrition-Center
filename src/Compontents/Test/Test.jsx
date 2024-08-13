@@ -3,16 +3,20 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
-
-
+import img1 from '../../../public/vijayakumari-1.png'
+import img2 from '../../../public/kavitha.png'
+import img3 from '../../../public/vasanthakumari.png'
+import img4 from '../../../public/rahul.png'
+import img5 from '../../../public/vijay.png'
+import img6 from '../../../public/sarasakalamani.png'
 
 const testimonials = [
-  { name: "Vijayakumari", text: "Wegiht Loss-80kg To 65Kg", image: "/file.png" },
-  { name: "Kavitha", text: "Incredible experience.", image: "/public/kavitha.png" },
-  { name: "Vsanthakumari", text: "Top-notch support!", image: "/public/vasanthakumari.png" },
-  { name: "Ragul", text: "Loved the quality.", image: "/public/rahul.png" },
-  { name: "Vijay", text: "Exceptional results.", image: "/public/vijay.png" },
-  { name: "sarasakalamani", text: "Would recommend.", image: "/public/sarasakalamani.png" },
+  { name: "Vijayakumari", text: "Wegiht Loss-80kg To 65Kg", image: img1 },
+  { name: "Kavitha", text: "Incredible experience.", image: img2 },
+  { name: "Vsanthakumari", text: "Top-notch support!", image: img3 },
+  { name: "Ragul", text: "Loved the quality.", image: img4 },
+  { name: "Vijay", text: "Exceptional results.", image: img5 },
+  { name: "sarasakalamani", text: "Would recommend.", image: img6 },
 ];
 
 const Testimonial = () => {

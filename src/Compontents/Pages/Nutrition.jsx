@@ -1,14 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import img1 from '../../../public/vijayakumari-1.png'
+import img2 from '../../../public/vasanthakumari.png'
+import img3 from '../../../public/kavitha.png'
+import img4 from '../../../public/vijay.png'
+import img5 from '../../../public/sarasakalamani.png'
+import img6 from '../../../public//rahul.png'
 
 const users = [
-  { id: 1, name: 'Vijayakumari', photo: '../../../public/vijayakumari-1.png', description: 'Description for User One' },
-  { id: 2, name: 'Vasanthakumari', photo: '../../../public/vasanthakumari.png', description: 'Description for User Two' },
-  { id: 3, name: 'Kavitha', photo: '../../../public/kavitha.png', description: 'Description for User Four' },
-  { id: 4, name: 'Vijay', photo: '../../../public/vijay.png', description: 'Description for User Three' },
- { id: 5, name: 'Ragul', photo: '../../../public/rahul.png', description: 'Description for User Five' },
- { id: 6, name: 'Sarasakalamani', photo: '../../../public/sarasakalamani.png', description: 'Description for User Three' },
+  { id: 1, name: 'Vijayakumari', photo: img1, description: 'Description for User One' },
+  { id: 2, name: 'Vasanthakumari', photo: img2, description: 'Description for User Two' },
+  { id: 3, name: 'Kavitha', photo: img3, description: 'Description for User Four' },
+  { id: 4, name: 'Vijay', photo: img4, description: 'Description for User Three' },
+ { id: 5, name: 'Ragul', photo: img6, description: 'Description for User Five' },
+ { id: 6, name: 'Sarasakalamani', photo: img5, description: 'Description for User Three' },
 
   
 ];

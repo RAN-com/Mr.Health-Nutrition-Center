@@ -1,14 +1,26 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom'
+import img1 from '../../../public/vijayakumari-1.png'
+import img2 from '../../../public/vasanthakumari.png'
+import img3 from '../../../public/kavitha.png'
+import img4 from '../../../public/vijay.png'
+import img5 from '../../../public/sarasakalamani.png'
+import img6 from '../../../public//rahul.png'
+import img11 from '../../../public/0.png'
+import img12 from '../../../public/8.png'
+import img13 from '../../../public/9.png'
+import img14 from '../../../public/7.png'
+
+
 
 const users = [
-  { id: 1, name: 'Vijaykumari ', photo: '../../../public/vijayakumari-1.png',qphoto: '../../../public/vijayakumari-1.png',Resultphoto:'../../../public/0.png',Results:'Weight Loss - 15Kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center" },
- { id: 2, name: 'Vasanthakumari ', photo: '../../../public/vasanthakumari.png',qphoto: '../../../public/vasanthakumari.png',Resultphoto:'../../../public/8.png',Results:'Weight Loss - 14kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koaxk4Sk" },
- { id: 3, name: 'Kavitha ', photo: '../../../public/kavitha.png',qphoto: '../../../public/kavitha.png',Resultphoto:'../../../public/9.png',Results:'Weight Loss - 33kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koaolOAa" },
- { id: 4, name: 'Vijay ', photo: '../../../public/vijay.png',qphoto: '',Resultphoto:'',Results:'Weight Loss-8kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koaZ4J6E" },
- { id: 5, name: 'Ragul ', photo: '../../../public/rahul.png' , qphoto: '',Resultphoto:'',Results:'Weight Gain-7kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koa4YMUf" },
- { id: 6, name: 'Sarasakalamani ', photo: '../../../public/sarasakalamani.png',qphoto: '../../../public/sarasakalamani.png',Resultphoto:'../../../public/7.png',Results:'Weight Loss - 11kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-sarasakalamani" },
+  { id: 1, name: 'Vijaykumari ', photo: img1,qphoto: img1,Resultphoto:'img11',Results:'Weight Loss - 15Kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center" },
+ { id: 2, name: 'Vasanthakumari ', photo: img2,qphoto: img2,Resultphoto:'img12',Results:'Weight Loss - 14kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koaxk4Sk" },
+ { id: 3, name: 'Kavitha ', photo: img3,qphoto: img3,Resultphoto:img13,Results:'Weight Loss - 33kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koaolOAa" },
+ { id: 4, name: 'Vijay ', photo: img4,qphoto: '',Resultphoto:'',Results:'Weight Loss-8kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koaZ4J6E" },
+ { id: 5, name: 'Ragul ', photo: img6 , qphoto: '',Resultphoto:'',Results:'Weight Gain-7kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-mrhealth-nutrition-center-koa4YMUf" },
+ { id: 6, name: 'Sarasakalamani ', photo:img5,qphoto: img5,Resultphoto:img14,Results:'Weight Loss - 11kg',Header:' Roles and Responsibilities of a Wellness Coach', description: '   Personalized Guidance,Health and Nutrition Advice,Behavioral Change,Stress Management,Lifestyle Management,Educational Support,Health Monitoring',link:"https://koalendar.com/e/meet-with-sarasakalamani" },
 
 ];
 
