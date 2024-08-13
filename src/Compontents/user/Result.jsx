@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from '../../../public/1.png'
 
 const UserCard = ({ user }) => (
   <div className="relative bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105  flex flex-col items-center">
@@ -19,7 +20,7 @@ const UserCard = ({ user }) => (
 
 const UserCardsGrid = () => {
   const users = [
-    { id: 1, img: '../../../public/1.png',  },
+    { id: 1, img: img1,  },
     { id: 2, img: '../../../public/2.png', },
     { id: 3, img: '../../../public/3.png',  },
     { id: 4, img: '../../../public/4.png', },
