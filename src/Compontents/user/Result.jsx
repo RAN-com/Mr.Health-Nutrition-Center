@@ -5,6 +5,8 @@ import img3 from '../../../public/3.png'
 import img4 from '../../../public/4.png'
 import img5 from '../../../public/5.png'
 import img6 from '../../../public/6.png'
+import logo from '../../../public/mr1.png'
+
 const UserCard = ({ user }) => (
   <div className="relative bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden transition-transform transform hover:scale-105  flex flex-col items-center">
     <div className='w-full h-80 overflow-hidden relative mb-4'>
@@ -12,7 +14,7 @@ const UserCard = ({ user }) => (
     </div>
    
     <div className="absolute inset-0  items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
-    <img className='w-20 h-auto p-3' src='../../../public/mr1.png'/>
+    <img className='w-20 h-auto p-3' src={logo}/>
       <div className="text-white text-center items-center justify-center p-4">
    
         <p className="text-lg font-semibold">{user.name}</p>
