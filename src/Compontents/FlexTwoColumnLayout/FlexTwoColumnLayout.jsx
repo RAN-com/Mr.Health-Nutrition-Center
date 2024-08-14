@@ -4,9 +4,9 @@ import foregroundImage from '../../assets/Female-Doctor-PNG-Pic 1.png';
 
 const FlexTwoColumnLayout = () => {
   return (
-    <div className="flex flex-wrap md:flex-nowrap items-center justify-center p-8 bg-green-700">
+    <div className="flex flex-wrap md:flex-nowrap items-center justify-center p-10 bg-green-700">
       {/* Left Column - Images */}
-      <div className="relative w-full md:w-1/2 flex justify-center items-center p-4">
+      <div className="relative w-full md:w-1/2 flex justify-center items-center ">
         {/* Layer 1: Background Image */}
         <img
           src={backgroundImage}
@@ -29,7 +29,7 @@ const FlexTwoColumnLayout = () => {
         A nutritionist is a professional who specializes in the science of nutrition and its application to health and wellness. They provide guidance on dietary practices, help individuals make informed food choices, and support overall health improvement. Here's a detailed look at what a nutritionist does and their role in health care:
         </p>
         <br/>
-        <h1 className='text-3xl font-bold mb-4 text-yellow-500'> Personalized Nutrition Plans:</h1>
+        <h1 className='text-2xl font-bold mb-4 text-yellow-500'> Personalized Nutrition Plans:</h1>
         <li className='text-lg text-white font-bold'>Custom Diet Plans: Develops tailored nutrition plans based on individual goals, such as weight management, disease prevention, or improvement of specific health conditions.
         </li>
         <br/>
