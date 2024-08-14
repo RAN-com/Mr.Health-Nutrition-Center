@@ -102,7 +102,7 @@ const CareersForm = () => {
 
         <button
           type="submit"
-          className={`w-full p-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600`}
+          className={`w-full p-2 bg-green-400 text-white font-semibold rounded hover:bg-green-600`}
         >
           Submit Application
         </button>
