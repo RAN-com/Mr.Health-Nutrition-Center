@@ -43,7 +43,7 @@ const Header = () => {
     return (
         <header className="header flex items-center" ref={headerRef}>
             <div className="container">
-                <div className="flex items-center justify-between p-8 bg-emerald-600">
+                <div className="flex items-center  justify-between p-8 bg-emerald-600 w-screen ">
                     <div>
                         <img src={logo} alt="Logo" className="w-16 h-auto" />
                     </div>
